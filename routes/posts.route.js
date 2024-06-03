@@ -1,14 +1,8 @@
 import express from 'express';
+import PostsController from '../controllers/posts.controller';
 
 const postsRouter = express.Router();
-//Example
-const postsController = {
-  list: () => {},
-  show: () => {},
-  create: () => {},
-  update: () => {},
-  delete: () => {},
-};
+const postsController = new PostsController();
 
 postsRouter.get('/', postsController.list);
 postsRouter.get('/:id', postsController.show);
