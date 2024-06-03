@@ -1,0 +1,31 @@
+{
+  "name": "express-simple-crud-api",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "A simple crud api example for posts.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/brit0dev/express-simple-crud-api.git"
+  },
+  "keywords": [
+    "express",
+    "crud",
+    "api",
+    "restful"
+  ],
+  "author": "brit0dev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brit0dev/express-simple-crud-api/issues"
+  },
+  "homepage": "https://github.com/brit0dev/express-simple-crud-api#readme",
+  "dependencies": {
+    "express": "^4.19.2",
+    "nodemon": "^3.1.3"
+  }
+}
