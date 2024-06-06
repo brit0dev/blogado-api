@@ -1,4 +1,4 @@
-import PostsRepository from '../repositories/posts.repository';
+import PostsRepository from "../repositories/posts.repository.js";
 
 export default class PostsController {
   constructor() {
